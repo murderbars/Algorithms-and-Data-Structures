@@ -92,8 +92,7 @@ int main() {
           system("CLS");
           continue;
         }
-        printf("* * * * * СОДЕРЖИМОЕ СТЕКА * * * * *
-          \n\ n ");
+        printf("* * * * * СОДЕРЖИМОЕ СТЕКА * * * * *          \n\n ");
           ptr = top;
           while (1) {
             cout << ptr -> number << endl;
@@ -107,7 +106,7 @@ int main() {
         }
         if (action > 4) {
           system("CLS");
-          printf("\t!!! НЕВЕРНЫЙ ВЫБОР. ПОВТОРИТЕ       ВВОД!!!\n\ n ");
+          printf("\t!!! НЕВЕРНЫЙ ВЫБОР. ПОВТОРИТЕ       ВВОД!!!\n\n ");
             system("PAUSE"); system("CLS");
             continue;
           }
